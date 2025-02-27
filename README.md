@@ -37,9 +37,11 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
     * As funções `inserir_assets()`, `inserir_asset_por_id()`, `inserir_historico_asset()`, `inserir_exchanges()` e `inserir_markets()` indicam a criação de tabelas correspondentes no banco de dados.
     * As colunas dos Dataframes são mapeadas para colunas nas tabelas do banco de dados.
 * **Tabelas no Banco de Dados:**
-    * O código cria tabelas no banco de dados para representar as criptomoedas e seus atributos relevantes.
-    * No mínimo duas tabelas são criadas: uma para informações gerais das criptomoedas e outra para o histórico de preços.
-    * O codigo utiliza tratamento de erro para não inserir dados duplicados nas tabelas.
+    * O código adiciona valores nas tabelas no banco de dados para representar as criptomoedas e seus atributos relevantes.
+    * O codigo utiliza tratamento de erro para não inserir dados duplicados nas tabelas e para acrescentar, diariamente, os dados daquele dia.
+ 
+     ![Captura de tela 2025-02-27 154656](https://github.com/user-attachments/assets/dc773838-192f-4c84-aa5b-5b50b2794883)
+ 
 
 ### Banco de Dados
 
@@ -110,3 +112,4 @@ O código vai mostrar o status do load de cada tabela para o Postgres. Por estar
 
 ### Power BI
 
+A etapa final do projeto consistiu na criação de um dashboard no Power BI para informar, de forma visual, os dados coletados pela API.
