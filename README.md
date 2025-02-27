@@ -1,5 +1,3 @@
-# mercadoCripto
-
 # Aplicação Sobre o Mercado de Criptomoedas
 
 Repositório com informações sobre o mercado de criptomoedas.
