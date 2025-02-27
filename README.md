@@ -97,3 +97,6 @@ Para executar o script, utilize o seguinte comando:
 ```bash
 python caseTecnicoCadastra.py
 ```
+
+![Captura de tela 2024-08-01 214255](https://github.com/user-attachments/assets/8b5c6e5e-e186-4c61-9121-9fbc2179f7a1)
+
