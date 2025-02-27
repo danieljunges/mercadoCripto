@@ -46,7 +46,8 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
 * **Escolha e Configuração:**
     * O código utiliza o banco de dados relacional PostgreSQL, hospedado no GCP Cloud SQL.
     * A biblioteca `psycopg2` é usada para conectar ao banco de dados e executar consultas SQL.
-    * A função `conectar_banco()` é responsavel por criar está conexão.
+    * A função `conectar_banco()` é responsavel por criar esta conexão.
+      
   ![image](https://github.com/user-attachments/assets/8f18cbaa-a6fb-4fc3-91d0-2cf1bd4637b7)
 
 
