@@ -79,7 +79,9 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
 ### Infraestrutura GCP
 
 * Toda a infraestrutura está no GCP, usando Cloud SQL para o banco de dados.
-* O uso do GCP garante escalabilidade e confiabilidade.
+
+* ![image](https://github.com/user-attachments/assets/e755ec51-fa90-49b9-ae58-2ada475ded69)
+
 
 ## Instalação
 
