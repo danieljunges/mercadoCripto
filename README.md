@@ -63,8 +63,8 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
 ### Configuração Externa
 
 * **Parâmetros Externos:**
-    * As credenciais de conexão com o banco de dados são definidas diretamente no código.
-    * Para melhorar a segurança e a flexibilidade, é recomendável usar variáveis de ambiente ou arquivos de configuração externos.
+    * Para melhorar a segurança e a flexibilidade, foi criado um arquivo `.env` para armazenar as credenciais de conexão com o banco de dados e outras variáveis de ambiente sensíveis.
+    * Todas às informações referentes a este arquivo foram enviadas por e-mail.
 
 ### Boas Práticas
 
