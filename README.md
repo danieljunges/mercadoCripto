@@ -26,7 +26,7 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
     * A frequência de coleta pode ser ajustada conforme necessário.
 * **Escopo da Coleta:**
     * O código coleta dados de todas as criptomoedas disponíveis na API, abrangendo informações como preço, capitalização de mercado e volume de negociação.
-    * Também é possível coletar dados de criptomoedas específicas, se necessário.
+    * Utilizei um filtro para pegar três criptomoedas em específico: Bitcoin, Ethereum e Solana.
 * **Limitação de Acesso:**
     * A função `tratar_limite_requisicoes` implementa um mecanismo de espera exponencial para lidar com o limite de requisições da API, garantindo a coleta contínua de dados.
 
@@ -63,7 +63,7 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
 ### Configuração Externa
 
 * **Parâmetros Externos:**
-    * Para melhorar a segurança e a flexibilidade, foi criado um arquivo `.env` para armazenar as credenciais de conexão com o banco de dados e outras variáveis de ambiente sensíveis.
+    * Para melhorar a segurança e a flexibilidade, foi criado um arquivo `.env` para armazenar as credenciais de conexão com o banco de dados e outras variáveis de ambiente sensíveis. **Arquivo precisa ser criado na máquina local para funcionar**
     * Todas às informações referentes a este arquivo foram enviadas por e-mail.
 
 ### Boas Práticas
@@ -75,12 +75,12 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
 
 ### Visualização de Dados
 
-* Conectamos o Power BI ao banco de dados para criar dashboards e visualizações.
-* Os dashboards mostram informações como capitalização de mercado, volume de negociação e histórico de preços.
+* O Power BI foi conectado ao banco de dados para criar o dashboard.
+* O dashboard mostra informações como capitalização de mercado, volume de negociação e histórico de preços.
 
 ### Infraestrutura GCP
 
-* Toda a infraestrutura está no GCP, usando Cloud SQL para o banco de dados e o Colab para a criação do Notebook.
+* Toda a infraestrutura está no GCP, usando Cloud SQL para o banco de dados e o Colab para a criação do notebook.
 
  ![image](https://github.com/user-attachments/assets/e755ec51-fa90-49b9-ae58-2ada475ded69)
 
