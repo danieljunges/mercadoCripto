@@ -4,7 +4,7 @@ Repositório com informações sobre o mercado de criptomoedas. Este projeto col
 
 ## Visão Geral
 
-O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma organizada e permitindo análise visual.
+O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma organizada e permitindo análise visual. De forma geral, três criptomoedas foram escolhidas para serem analisadas: **Bitcoin, Ethereum e Solana.**
 
 ## Detalhes Operacionais
 
@@ -112,4 +112,14 @@ O código vai mostrar o status do load de cada tabela para o Postgres. Por estar
 
 ### Power BI
 
-A etapa final do projeto consistiu na criação de um dashboard no Power BI para informar, de forma visual, os dados coletados pela API.
+A etapa final do projeto consistiu na criação de um dashboard no Power BI para informar, de forma visual, os dados coletados pela API. Informações como: volume de transação nas últimas 24 horas, **quantidade de criptomoedas coletadas e preço médio das criptomoedas** são exemplos de dados que podem ser observados no painel.
+
+![Captura de tela 2025-02-27 155242](https://github.com/user-attachments/assets/e734aee0-481f-450f-8ce9-c82c76f32d05)
+
+### Insights
+
+Através da coleta e a visualização do painel, é possível observar que a moeda Bitcoin é a que mais tem movimentações diárias. Também é possivel notar que a exchange Binance é a mais utilizada, seguida da gdax e cripto, respectivamente.
+
+### Para o Futuro
+
+Implementar um sistema de alertas que notifica os usuários sobre mudanças significativas no mercado de criptomoedas (por exemplo, variações de preço, volume de negociação).
