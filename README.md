@@ -90,10 +90,10 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
 1.  Clone este repositório para sua máquina local.
 2.  Navegue até o diretório do projeto: `cd nome-do-repositorio`
 3.  Crie um arquivo `.env` na raiz do projeto e adicione as credenciais de banco de dados (enviadas por e-mail).
+
+   ![Captura de tela 2025-02-27 162840](https://github.com/user-attachments/assets/a0775ddb-2a36-4cd1-a4b2-32fc5873bd35)
+   
    * Observação: Por motivos de segurança, enviei as credenciais por e-mail. Qualquer dúvida, pode me chamar: eudanieljunges@gmail.com
-
-     ![Captura de tela 2025-02-27 162840](https://github.com/user-attachments/assets/a0775ddb-2a36-4cd1-a4b2-32fc5873bd35)
-
 4.  Instale as dependências do projeto: `pip install -r requirements.txt`
 
 **Observações:**
