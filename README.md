@@ -1,10 +1,6 @@
 # Aplicação Sobre o Mercado de Criptomoedas
 
-Repositório com informações sobre o mercado de criptomoedas.
-
-## Nome do Projeto
-
-Este projeto coleta dados atualizados de criptomoedas da API CoinCap, armazena em um banco de dados PostgreSQL no GCP Cloud SQL e visualiza os dados no Power BI.
+Repositório com informações sobre o mercado de criptomoedas. Este projeto coleta dados atualizados de criptomoedas da API CoinCap, armazena em um banco de dados PostgreSQL no GCP Cloud SQL e visualiza os dados no Power BI.
 
 ## Visão Geral
 
