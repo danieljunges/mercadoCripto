@@ -99,6 +99,7 @@ python caseTecnicoCadastra.py
 ```
 
 ![Captura de tela 2025-02-27 151748](https://github.com/user-attachments/assets/5a105e9b-68c0-49ad-a570-bd875dffb6e1)
+
 O código vai mostrar o status do load de cada tabela para o Postgres. Por estar rodando local, pode demorar entre 5-10 minutos para toda a execução ser finalizada.
 
 
