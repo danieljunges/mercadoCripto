@@ -26,7 +26,7 @@ O projeto automatiza a coleta de dados de criptomoedas, armazenando-os de forma 
     * A frequência de coleta pode ser ajustada conforme necessário.
 * **Escopo da Coleta:**
     * O código coleta dados de todas as criptomoedas disponíveis na API, abrangendo informações como preço, capitalização de mercado e volume de negociação.
-    * Utilizei um filtro para pegar três criptomoedas em específico: Bitcoin, Ethereum e Solana.
+    * Foi utilizado um filtro na chamada da API para puxar dados de três criptomoedas específicas: Bitcoin, Ethereum e Solana.
 * **Limitação de Acesso:**
     * A função `tratar_limite_requisicoes` implementa um mecanismo de espera exponencial para lidar com o limite de requisições da API, garantindo a coleta contínua de dados.
 
